@@ -33,7 +33,7 @@ except Exception as e:
     gateway = None
 
 config_file_path = './data/configuration/klay.conf'
-klay = gateway.jvm.klay.python.wrapper.KlayEntryPoint(config_file_path).getKlay()
-morphs = klay.doKlay('안녕하세요 KLAY입니다.')
+klay_ep = gateway.jvm.klay.python.wrapper.KlayEntryPoint(config_file_path)
+morphs = klay_ep.doKlay('안녕하세요 KLAY입니다.')
 for morph in morphs.iterator():
     print(morph)
