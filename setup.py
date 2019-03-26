@@ -54,7 +54,6 @@ setup(
     download_url=version_properties['__download_url__'],
     include_package_data=True,
     long_description=long_description,
-    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=install_requires,
     setup_requires=setup_requires,

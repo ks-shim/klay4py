@@ -8,7 +8,7 @@
 #                                  \|___|/                         \|___|/
 
 
-__title__ = 'pyKlay'
+__title__ = 'klay4py'
 __description__ = 'KLAY4py is for python user considering to use KLAY.'
 __version__ = '0.3'
 __author__ = 'KS-SHIM'
