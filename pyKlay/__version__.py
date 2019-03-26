@@ -15,3 +15,5 @@ __author__ = 'KS-SHIM'
 __author_email__ = 'dwayne.shim@gmail.com'
 __license__ = 'Apache 2.0'
 __copyright__ = 'Copyright 2019 Dwayne Shim'
+__url__ = 'https://github.com/ks-shim/klay4py'
+__download_url__ = 'https://github.com/klay4py/pyKlay/releases/download/{0}/klay4py-{0}.tar.gz'.format(__version__)
